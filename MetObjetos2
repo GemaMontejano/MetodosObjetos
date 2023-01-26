@@ -3,5 +3,5 @@ const objeto1 = {
     nombre: "María",
     alumno: "127",
 };
-for (clave in objeto1);
+for (let clave in objeto1);
 console.log(objeto1);
