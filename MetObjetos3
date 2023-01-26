@@ -1,0 +1,6 @@
+//3-Crear un método para un objeto que devuelva una lista de todos los valores de sus propiedades:
+const objeto1 = {
+    nombre: "María",
+    alumno: "127",
+};
+console.log(Object.values(objeto1));
