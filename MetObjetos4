@@ -1,0 +1,6 @@
+//4-Crear un método para un objeto que devuelva una lista de pares clave-valor:
+const objeto1 = {
+    nombre: "María",
+    alumno: "127",
+};
+console.log(Object.entries(objeto1));
