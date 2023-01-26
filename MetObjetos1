@@ -1,0 +1,7 @@
+//Crear un método para un objeto que verifique la existencia de una propiedad:
+const objeto1 = {
+    nombre: "María",
+    alumno: "127",
+};
+let propDireccion = (objeto1.hasOwnProperty('direccion')) ? 'Sí' : 'No';
+console.log('¿Tenemos la dirección del alumno?: ' + propDireccion);
