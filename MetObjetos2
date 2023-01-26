@@ -3,5 +3,6 @@ const objeto1 = {
     nombre: "María",
     alumno: "127",
 };
-for (let clave in objeto1);
-console.log(objeto1);
+for (const prop in objeto1) {
+    console.log(`objeto1.${prop} = ${objeto1[prop]}`);
+}
