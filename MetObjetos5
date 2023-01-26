@@ -1,0 +1,6 @@
+//5-Crear un método para un objeto que devuelva una lista de todas las claves:
+const objeto1 = {
+    nombre: "María",
+    alumno: "127",
+};
+console.log(Object.keys(objeto1));
