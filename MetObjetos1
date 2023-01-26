@@ -5,3 +5,5 @@ const objeto1 = {
 };
 let propDireccion = (objeto1.hasOwnProperty('direccion')) ? 'Sí' : 'No';
 console.log('¿Tenemos la dirección del alumno?: ' + propDireccion);
+/*otra opcion:
+console.log(alumno.hasOwnProperty('direccion'));
